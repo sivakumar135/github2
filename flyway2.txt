@@ -1,0 +1,102 @@
+16:56:11.371|info   |[App] Starting Flyway Desktop 7.2.0
+16:56:11.372|info   |[App settings] No settings found on disk.
+16:56:11.391|info   |[App] Setting logging level to Default.
+16:56:11.391|info   |[Permit] Using permit licensing
+16:56:11.399|info   |[FUR] Generating new feature usage id
+16:56:11.416|info   |[PUR] Starting permits based PUR
+16:56:14.372|info   |[UI features] []
+16:56:21.973|info   |[Permit] Reading last saved online permit from offline store
+16:56:22.015|info   |[Permit] Reading last saved onjavaline permit from offline store
+16:56:22.022|info   |[Permit] Fetching available trials.
+16:57:32.888|info   |[Permit] Fetching new permit using access token.
+16:57:34.523|info   |[Permit] no active licenses with an available edition on permit
+16:57:34.526|info   |[Permit] Regenerating access token using refresh token
+16:57:34.935|info   |[Permit] Fetching new permit using access token.
+16:57:38.404|info   |[Permit] no active licenses with an available edition on permit
+16:57:38.404|info   |[Permit] Reading last saved online permit from offline store
+16:57:38.407|info   |[Permit] no active licenses with an available edition on permit
+16:57:38.459|info   |[Permit] Fetching available trials.
+16:57:38.459|info   |[Permit] Fetching available trials using access token.
+16:57:45.791|info   |[Permit] Fetching new permit using access token.
+16:57:56.549|info   |[Permit] no active licenses with an available edition on permit
+16:57:56.551|info   |[Permit] Regenerating access token using refresh token
+16:57:56.992|info   |[Permit] Fetching new permit using access token.
+16:57:58.477|info   |[Permit] no active licenses with an available edition on permit
+16:57:58.477|info   |[Permit] Reading last saved online permit from offline store
+16:57:58.480|info   |[Permit] no active licenses with an available edition on permit
+17:00:24.695|info   |[App] Calling cli with args: ["import-project","--source-path","C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Source","--import-type","SqlSourceControl","--database-type","SqlServer","--destination-path","C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Target\\flyway.toml","--i-agree-to-the-eula","--format","json"]
+17:00:26.987|info   |[CLI] Flushing events timed out
+17:00:27.027|error  |[App] import-project error:  {"shortMessage":"Project folder 'C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Source' is not a valid SQL Source Control project as it does not contain a RedGateDatabaseInfo.xml file","context":"import-project","type":"E_FLYWAY_DEV_CLI_FAIL","code":"E_INVALID_OPTION"} {"stack":"Error: {\"shortMessage\":\"Project folder 'C:\\\\Users\\\\sivakumar_palanisamy\\\\OneDrive - HCL TECHNOLOGIES LIMITED\\\\Desktop\\\\flyway\\\\Source' is not a valid SQL Source Control project as it does not contain a RedGateDatabaseInfo.xml file\",\"context\":\"import-project\",\"type\":\"E_FLYWAY_DEV_CLI_FAIL\",\"code\":\"E_INVALID_OPTION\"}\n    at _ (C:\\Program Files\\Red Gate\\Flyway Desktop\\flyway-desktop\\resources\\app.asar\\out\\electron\\index.cjs:1:8279)\n    at IpcMainImpl.<anonymous> (C:\\Program Files\\Red Gate\\Flyway Desktop\\flyway-desktop\\resources\\app.asar\\out\\electron\\index.cjs:66:38221)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","message":"{\"shortMessage\":\"Project folder 'C:\\\\Users\\\\sivakumar_palanisamy\\\\OneDrive - HCL TECHNOLOGIES LIMITED\\\\Desktop\\\\flyway\\\\Source' is not a valid SQL Source Control project as it does not contain a RedGateDatabaseInfo.xml file\",\"context\":\"import-project\",\"type\":\"E_FLYWAY_DEV_CLI_FAIL\",\"code\":\"E_INVALID_OPTION\"}"}
+17:01:23.815|info   |[App] Calling "C:\Program Files\Red Gate\Flyway Desktop\flyway\flyway.cmd" init
+17:01:34.853|info   |[App] Flyway response: {
+  "path": "C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Source\\schemamigration\\flyway.toml",
+  "projectId": "8a7bd356-8e5f-41ed-963e-62a3ec82be88"
+}
+17:01:35.705|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:01:35.964|info   |[App] Calling cli with args: ["project-capabilities","--project","C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Source\\schemamigration\\flyway.toml","--i-agree-to-the-eula","--format","json"]
+17:01:40.603|info   |[CLI] Flushing events timed out
+17:01:40.651|info   |[Capabilities] ["BASELINE_MIGRATIONS","UNDO_MIGRATIONS","DEPLOYMENT_REPORTS","CHERRY_PICK","SECRETS_MANAGEMENT","DRY_RUN","VERSION_CONTROL","BATCH","DETECT_ENCODING","ERROR_OVERRIDES","JDBC_PROPERTIES","KERBEROS","ORACLE_SQL_PLUS","ORACLE_WALLET","OUTPUT_QUERY_RESULTS","SCRIPT_MIGRATIONS","SKIP_EXECUTING_MIGRATIONS","STREAM","MANAGE_MIGRATIONS","VCS_SIDEBAR","PROVISIONING"]
+17:01:40.804|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:01:40.805|info   |[Permit] Reading last saved online permit from offline store
+17:01:40.809|info   |[UI features] []
+17:01:40.813|info   |[Permit] no active licenses with an available edition on permit
+17:01:40.844|info   |[App] Calling "C:\Program Files\Red Gate\Flyway Desktop\flyway\flyway.cmd" info
+17:01:40.899|info   |[Permit] Fetching new permit using access token.
+17:01:41.542|info   |[Permit] no active licenses with an available edition on permit
+17:01:41.545|info   |[Permit] Regenerating access token using refresh token
+17:01:42.330|info   |[Permit] Fetching new permit using access token.
+17:01:42.785|info   |[Permit] no active licenses with an available edition on permit
+17:01:42.785|info   |[Permit] Reading last saved online permit from offline store
+17:01:42.789|info   |[Permit] no active licenses with an available edition on permit
+17:01:46.360|info   |[App] Flyway response: {
+  "schemaVersion": null,
+  "schemaName": "",
+  "migrations": [],
+  "flywayVersion": "10.11.1",
+  "database": "",
+  "allSchemasEmpty": true,
+  "timestamp": "2024-04-17T17:01:46.123694800",
+  "operation": "info",
+  "exception": null,
+  "licenseFailed": false
+}
+17:01:50.708|info   |[App] Calling cli with args: ["next-migration-name","--project","C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Source\\schemamigration\\flyway.toml","--description","","--i-agree-to-the-eula","--format","json"]
+17:01:52.838|info   |[CLI] Flushing events timed out
+17:01:52.885|info   |[App] Calling cli with args: ["parse-migration-name","--project","C:\\Users\\sivakumar_palanisamy\\OneDrive - HCL TECHNOLOGIES LIMITED\\Desktop\\flyway\\Source\\schemamigration\\flyway.toml","--name","V001_20240417113151__sivakumar_palanisamy.sql","--i-agree-to-the-eula","--format","json"]
+17:01:54.960|info   |[CLI] Flushing events timed out
+17:02:15.477|info   |[App] Console exited with code 3221225786
+17:02:15.481|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:02:19.092|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:02:54.894|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:03:03.179|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:03:13.057|info   |[Permit] Fetching available trials.
+17:03:13.057|info   |[Permit] Fetching available trials using access token.
+17:03:24.071|info   |[Permit] Starting trial of 'Enterprise'.
+17:03:24.071|info   |[Permit] Starting new trial using access token.
+17:03:24.847|info   |[Permit] Fetching new permit using access token.
+17:03:25.519|info   |[Permit] no active licenses with an available edition on permit
+17:03:25.521|info   |[Permit] Regenerating access token using refresh token
+17:03:25.934|info   |[Permit] Fetching new permit using access token.
+17:03:26.401|info   |[Permit] no active licenses with an available edition on permit
+17:03:26.401|info   |[Permit] Reading last saved online permit from offline store
+17:03:26.403|info   |[Permit] no active licenses with an available edition on permit
+17:03:26.453|info   |[Permit] Fetching available trials.
+17:03:26.454|info   |[Permit] Fetching available trials using access token.
+17:03:33.327|info   |[Permit] Starting trial of 'Teams'.
+17:03:33.327|info   |[Permit] Starting new trial using access token.
+17:03:33.909|info   |[Permit] Fetching new permit using access token.
+17:03:34.761|info   |[Permit] Using license with ID '96c92bc4-792d-452d-b5bf-6d9a386fe751'
+17:03:34.835|info   |[Permit] Fetching available trials.
+17:03:34.836|info   |[Permit] Fetching available trials using access token.
+17:03:47.228|info   |[Permit] Fetching new permit using access token.
+17:03:52.763|info   |[Permit] Using license with ID '96c92bc4-792d-452d-b5bf-6d9a386fe751'
+17:03:56.557|info   |[Permit] Fetching new permit using access token.
+17:03:57.049|info   |[Permit] Using license with ID '96c92bc4-792d-452d-b5bf-6d9a386fe751'
+17:04:42.276|info   |[Permit] Fetching new permit using access token.
+17:04:43.199|info   |[Permit] Using license with ID '96c92bc4-792d-452d-b5bf-6d9a386fe751'
+17:04:44.542|info   |[Permit] Fetching new permit using access token.
+17:04:45.019|info   |[Permit] Using license with ID '96c92bc4-792d-452d-b5bf-6d9a386fe751'
+17:04:51.128|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
+17:04:52.449|info   |[Permit] Fetching new permit using access token.
+17:04:52.954|info   |[Permit] Using license with ID '96c92bc4-792d-452d-b5bf-6d9a386fe751'
+21:31:37.620|info   |[App] loading settings from C:\Users\sivakumar_palanisamy\OneDrive - HCL TECHNOLOGIES LIMITED\Desktop\flyway\Source\schemamigration\flyway.toml
